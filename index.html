@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Safari Mobile Bug</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.6/superhero/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <style media="screen">
+      body {
+        font-family: 'Open Sans', sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1><a href="next.html">Click me, then click back.</a></h1>
+      <h4>
+        This is to test which browsers can use which events to alert a user when a page is left via the back button.
+      </h4>
+      <h4>
+        Click the link above, and then the back button - if your browser supports beforeunload, unload or pagehide, you should see a console log and a popup alert.
+      </h4>
+    </div>
+  </body>
+</html>
